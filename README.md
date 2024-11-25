@@ -77,7 +77,7 @@ int main() {
     printf("1. Print every path\n");  // Mode 1: Display all possible paths.
     printf("2. Print the best path\n"); // Mode 2: Display only the optimal path.
     printf("-----------------------------------\n");
-    printf("Please select a mode (1 or 2): ");
+    printf("Please select a mode (1 or 2): 
 
     // Step 9: Validate user input.
     // Loop until the user enters a valid mode (1 or 2).
@@ -103,6 +103,14 @@ int main() {
     return 0;
 }
 ```
+
+This is the useful function : 
+```c
+t_node *executePhase(int num_choices, int min_choices, t_map map, int mode);
+```
+This function will execute the entire simulation and determine the best path (accoring to the number of choices for the root, the number of children, the map and the mode) which is the goal of our travel software.
+It uses the functions _InitializeTree_ , _getBaseStationPosition_ , _BuildTree_ , _TraverseTree_ and _FindBestPath_.
+
 
 ## Made with
 * [CLion](https://www.jetbrains.com/fr-fr/clion/) - Text Editor
