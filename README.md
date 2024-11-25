@@ -27,7 +27,6 @@ Compile using your compiler and execute the "main.exe" file.
 #include "tree.h"
 
 
-// Main function: Entry point of the program.
 int main() {
     // Step 1: Create a map object from a file.
     // The file "../maps/training.map" is expected to contain the map's details.
@@ -103,4 +102,12 @@ int main() {
     // Step 12: End the program with a successful status.
     return 0;
 }
+```
 
+## Made with
+* [CLion](https://www.jetbrains.com/fr-fr/clion/) - Text Editor
+
+## Made by
+- BUGDAY Ahmet, [Retr0Kebab](https://github.com/Retr0Kebab)
+- HENI Beya, [beyaheni](https://github.com/beyalina)
+- CHINI Meissa, [meissac](https://github.com/meissac)
