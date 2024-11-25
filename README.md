@@ -113,7 +113,7 @@ It uses the functions _InitializeTree_ , _getBaseStationPosition_ , _BuildTree_ 
 
 
 ## Made with
-* [CLion](https://www.jetbrains.com/fr-fr/clion/) - Text Editor
+* [CLion](https://www.jetbrains.com/fr-fr/clion/) - IDE Compiler
 
 ## Made by
 - BUGDAY Ahmet, [Retr0Kebab](https://github.com/Retr0Kebab)
